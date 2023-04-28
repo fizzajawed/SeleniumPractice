@@ -31,7 +31,7 @@ public class Basetest {
     @BeforeMethod
     public void gohome(){
         driver.get("https://the-internet.herokuapp.com/");
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
         //homePage = new HomePage(driver);
     }
 
