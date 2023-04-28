@@ -32,7 +32,7 @@ public class Basetest {
     public void gohome(){
         driver.get("https://the-internet.herokuapp.com/");
         driver.manage().window().maximize();
-        homePage = new HomePage(driver);
+        //homePage = new HomePage(driver);
     }
 
 
